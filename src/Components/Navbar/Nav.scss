@@ -1,0 +1,68 @@
+.Navbar{
+    padding: 1rem;
+    background-color: #1C252E;
+    display: flex;
+    justify-content:center;
+    &__Search{
+          margin-left: 5rem;
+      background-color:  #262d35;
+        height: max-content;
+        width: max-content;
+        border-radius: 5px;
+     color: rgb(159, 159, 159);
+     i{
+        padding-left: 2px;
+     }
+    input{ 
+          background-color:  #262d35;
+        width:20rem;
+        height: 2.1rem;
+     border:none;
+    }
+    input::placeholder{
+        border: none;
+        font-size: 0.9rem;
+        color: rgb(159, 159, 159);
+    }
+    input:focus{
+        border: none;
+        background-color: azure;
+    }
+    input:active{
+        border: none;
+    }
+
+}
+&__form{
+    form{
+         display: flex;
+    }
+    .id ,.password{
+       
+         background-color:  #262d35;
+        height: max-content;
+        width: max-content;
+        border-radius: 5px;
+     color: rgb(31, 182, 14);
+    }
+     input{ 
+          background-color:  #262d35;
+        width:10rem;
+        height: 2.1rem;
+     border:none;
+    }
+    input::placeholder{
+        border: none;
+        font-size: 0.9rem;
+        color: rgb(159, 159, 159);
+    }
+    input:focus{
+        border: none;
+        background-color: azure;
+    }
+    input:active{
+        border: none;
+    }
+}
+
+}
