@@ -1,28 +1,28 @@
 .Navbar{
-    padding: 1rem;
+    padding-top: 20px;
     background-color: #1C252E;
     display: flex;
     justify-content:center;
     &__Search{
-          margin-left: 5rem;
+          margin-left: 3rem;
       background-color:  #262d35;
         height: max-content;
         width: max-content;
         border-radius: 5px;
-     color: rgb(159, 159, 159);
+     color: rgb(112, 112, 112);
      i{
-        padding-left: 2px;
+        padding: 0px 15px;
      }
     input{ 
           background-color:  #262d35;
-        width:20rem;
-        height: 2.1rem;
+        width:18rem;
+      height: 1.9rem;
      border:none;
     }
     input::placeholder{
         border: none;
         font-size: 0.9rem;
-        color: rgb(159, 159, 159);
+       color: rgb(112, 112, 112);
     }
     input:focus{
         border: none;
@@ -35,26 +35,34 @@
 }
 &__form{
     form{
+        margin-left: 2rem;
          display: flex;
     }
-    .id ,.password{
-       
+     i{
+        padding: 0px 15px;
+     }
+    .id ,.pw .password{
+       margin-left: 1rem;
          background-color:  #262d35;
         height: max-content;
         width: max-content;
         border-radius: 5px;
      color: rgb(31, 182, 14);
-    }
+     .text{
+        color: rgb(173, 173, 173);
+        font-size: 13px;
+     }
+   
      input{ 
           background-color:  #262d35;
-        width:10rem;
-        height: 2.1rem;
+        width:8rem;
+        height: 1.8rem;
      border:none;
     }
     input::placeholder{
         border: none;
         font-size: 0.9rem;
-        color: rgb(159, 159, 159);
+       color: rgb(112, 112, 112);
     }
     input:focus{
         border: none;
@@ -64,5 +72,28 @@
         border: none;
     }
 }
-
-}
+ .Login{
+    margin-left: 1rem;
+    background-color: rgb(13, 154, 13);
+    padding: 3px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 3px;
+     color: rgb(202, 202, 202);
+     width:4.2rem;
+       height: 1.8rem;
+ }
+ .Register{
+    margin-left: 0.3rem;
+        padding: 3px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(21, 204, 21);
+     border-radius:3px;
+     color: rgb(202, 202, 202);
+     width:4rem;
+       height: 1.5rem;
+ }
+}}

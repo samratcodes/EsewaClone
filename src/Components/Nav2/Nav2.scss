@@ -1,0 +1,25 @@
+.Nav2{
+    background-color:rgb(31, 182, 14);
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding-right: 700px;
+    .Topup{
+          font-size: 1rem;
+     color: white;
+     margin:0px 20px 0px 0px;
+    }
+    .Topup:hover{
+        color: rgb(105, 105, 105);
+    }
+    .Airlines , .InternetBills, .Loadfunds{
+        font-size: 1rem;
+     color: white;
+     margin:0px 20px;
+    }
+      .Airlines:hover , .InternetBills:hover, .Loadfunds:hover{
+        color: rgb(105, 105, 105);
+
+      }
+}

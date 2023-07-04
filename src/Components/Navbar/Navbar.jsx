@@ -23,10 +23,15 @@ const Navbar = () => {
             <i className="fa-solid fa-user"></i>
             <input type="text" name="id" id="id" placeholder="eSewa ID" />
           </div>
-          <div className="password">
-            <i className="fa-solid fa-lock"></i>
-            <input type="password" name="" id="" placeholder="Password" />
+          <div className="pw">
+            <div className="password">
+              <i className="fa-solid fa-lock"></i>
+              <input type="password" name="" id="" placeholder="Password" />
+              <div className="text">Forget password ?</div>
+            </div>
           </div>
+          <div className="Login">Login</div>
+          <div className="Register">Register</div>
         </form>
       </div>
     </div>
