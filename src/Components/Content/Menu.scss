@@ -1,0 +1,48 @@
+.Menu{ background-color: rgb(224, 234, 243);
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    .sidemenu{
+        width: max-content;
+        height:max-content ;
+        border-radius: 5px;
+        padding: 15px 0px;
+       background-color: rgb(255, 255, 255);
+        &__parts{
+            display: flex;
+            justify-content: space-between;
+            padding: 0.78rem 0.7rem;
+        
+             font-size: 0.78rem;
+             width: 12.5rem;
+           }
+           &__parts:hover{
+            background-color: rgb(239, 239, 239);
+           .text{
+             color: rgb(12, 188, 21);
+           }         
+  }
+  @keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sidemenu__parts:hover i {
+  animation: moveLeft 0.3s linear;
+     color: rgb(12, 188, 21);
+     transition: 0.7s;
+}
+           
+
+    }
+    .images{
+        margin-left:1rem ;
+    }
+}
