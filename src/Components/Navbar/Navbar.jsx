@@ -30,8 +30,9 @@ const Navbar = () => {
               <div className="text">Forget password ?</div>
             </div>
           </div>
-          <div className="Login">Login</div>
-          <div className="Register">Register</div>
+          <button type="submit"className="Login">Login</button>
+          <button type="submit"className="Register">Register</button>
+          
         </form>
       </div>
     </div>
