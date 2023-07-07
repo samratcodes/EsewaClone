@@ -10,25 +10,24 @@ const Downloads = () => {
             alt="imgg"
           />
           <img
-            src="https://cdn.esewa.com.np/ui/images/logos/img_verified_by_visa-min.png"
+            src="https://cdn.esewa.com.np/ui/images/logos/img_mastercard_secure-min.png"
             alt="img1"
           />
-          <img
-            src="https://cdn.esewa.com.np/ui/images/logos/img_verified_by_visa-min.png"
-            alt="img1"
-          />
+          <img src="https://cdn.esewa.com.np/ui/images/ISO.png" alt="img1" />
         </div>
         <div className="Downloads__content__part2">
           <img
+            className="img1"
             src="https://cdn.esewa.com.np/ui/images/logos/img_google_play_badge.png"
             alt="google"
           />
           <img
+            className="img2"
             src="https://cdn.esewa.com.np/ui/images/logos/img_appstore_badge.png"
             alt="Appstore"
           />
         </div>
-        <div className="Downloads__content__part2">
+        <div className="Downloads__content__part3">
           <img
             src=" https://cdn.esewa.com.np/ui/images/logos/f1-logo-new.png"
             alt="F1soft"

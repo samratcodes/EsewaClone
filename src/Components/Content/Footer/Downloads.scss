@@ -12,6 +12,36 @@
         display: flex;
         justify-content: space-between;
         width:75%;
-        
+        &__part1{
+         display: flex;
+          img{
+            margin: 0.4rem;
+             padding: 0.3rem 1rem;
+            width : 4rem;
+            background-color: rgb(255, 255, 255);
+            height: max-content;
+            border-radius:5px ;
+          }
+        }
+        &__part2{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img{
+            width: 10rem;
+          }
+          .img2{
+            width: 8rem;
+          }
+        }
+        &__part3{
+      img{
+        width: 6rem;
+            background-color: aliceblue;
+            padding:0.5rem 1rem;
+            border-radius: 3rem;
+      }
+        }
+      
     }
 }
