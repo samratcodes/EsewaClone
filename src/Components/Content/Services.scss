@@ -1,0 +1,76 @@
+.Services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+ .op{   display: flex;
+flex-direction: column;
+  
+.TopText{
+    margin: 1rem 0rem;
+}
+    .Products{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background-color: aliceblue;
+    
+      &__card{
+       margin: 1rem;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       border: 2px solid rgb(222, 222, 222);
+  
+        width: 12.5rem;
+       &__top{
+        background-color: rgb(221, 238, 246);
+             height: 7rem;
+        overflow: hidden;
+        width:100%;
+         display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     
+       }
+       &__bottom{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        &__text{
+            margin: 1rem 0px;
+            font-size: 0.85rem;
+        }
+        &__details{
+            font-size: 0.75rem;
+            padding: 0.5rem 2rem;
+          color: rgb(12, 188, 21);
+           transition: 400ms;
+           border-radius: 5px;
+           margin-bottom: 1rem;
+        }
+        &__details:hover{
+            background-color: rgb(12, 188, 21) ;
+            color: aliceblue;
+            transition: 400ms;
+        }
+       }
+       img{
+          background-color: rgb(255, 253, 253);
+        box-sizing: border-box;
+        padding: 1rem;
+      width: 5rem;
+      transition: 300ms;
+      border-radius: 10rem 7rem 7rem 10rem ;
+       }
+       img:hover{
+        width: 5rem;
+          padding:0rem;
+           transition: 400ms;
+           border-radius:1rem;
+       }
+      }
+    }
+}}

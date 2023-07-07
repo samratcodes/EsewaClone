@@ -1,4 +1,17 @@
 .App{
     font-family: 'Inter', sans-serif;
 font-family: 'Roboto', sans-serif;
+background-color: rgb(224, 234, 243);
+ 
+}
+.message{
+    border: 1px solid rgb(225, 225, 206);
+    background-color: rgb(0, 209, 21);
+    color: rgb(255, 255, 255);
+    position: fixed ;
+    bottom: 50%;
+    right: 0px;
+    border-radius: 10%;
+    padding: 0.4rem;
+
 }

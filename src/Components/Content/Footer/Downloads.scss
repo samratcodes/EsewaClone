@@ -1,0 +1,17 @@
+.Downloads{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      background: #28323C;
+    color: rgb(128, 128, 128);
+    padding: 2rem 0rem;
+    
+    &__content{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        width:75%;
+        
+    }
+}

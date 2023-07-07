@@ -1,7 +1,8 @@
-.Menu{ background-color: rgb(224, 234, 243);
+.Menu{
     padding-top: 1rem;
     display: flex;
     justify-content: center;
+    
     .sidemenu{
         width: max-content;
         height:max-content ;
@@ -30,12 +31,12 @@
     transform: translateX(-10px);
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(0px);
   }
 }
 
 .sidemenu__parts:hover i {
-  animation: moveLeft 0.3s linear;
+  animation: moveLeft 0.3s ;
      color: rgb(12, 188, 21);
      transition: 0.7s;
 }

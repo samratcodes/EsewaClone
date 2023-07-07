@@ -1,0 +1,13 @@
+.Copyright{
+        background: #1C252E;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        &__content{
+            width:75%;
+            display: flex;
+            justify-content: space-between;
+            color: rgb(116, 143, 154);
+            font-size: 0.75rem;
+        }
+}
