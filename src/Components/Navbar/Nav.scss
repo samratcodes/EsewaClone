@@ -3,6 +3,8 @@
     background-color: #1C252E;
     display: flex;
     justify-content:center;
+   position: sticky;
+    top: 0;
     &__Search{
           margin-left: 3rem;
       background-color:  #262d35;
